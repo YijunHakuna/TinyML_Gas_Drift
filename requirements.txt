@@ -1,0 +1,6 @@
+torch                     2.10.0                   pypi_0    pypi
+torchaudio                2.10.0                   pypi_0    pypi
+torchvision               0.25.0                   pypi_0    pypi
+scikit-learn              1.7.2                    pypi_0    pypi
+matplotlib                3.10.8                   pypi_0    pypi
+pyyaml                    6.0.3                    pypi_0    pypi
