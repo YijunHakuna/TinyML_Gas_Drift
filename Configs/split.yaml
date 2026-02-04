@@ -1,0 +1,9 @@
+# configs/split.yaml
+split_config:
+  train_batches: [1]          # 仅用最开始的数据建立 Baseline
+  ssl_adapt_batches: [2, 3,4,5,6]   # 【下周用】用于自监督学习的无标签数据
+  val_batches: [7]
+  test_batches: [8, 9, 10]
+
+metadata:
+  note: "Batch 3&4 lack Class 6; using Batch 5 for validation to ensure class balance."
